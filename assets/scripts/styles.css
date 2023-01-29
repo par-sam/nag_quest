@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #222222;
+    background-image: url("../img/bckg.gif");
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+li, a, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    text-decoration: underline;
+    list-style: none;
+}
+
+a:hover {
+    color: rgb(43, 163, 233);
+    transition: color 0.5s ease;
+}
+
+.page {
+    background-color: #222222;
+    margin: 5%;
+    padding-bottom: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+footer {
+    text-align: center;
+}
+
+/* .site_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.logo {
+    float: right;
+    right: 0;
+    cursor: pointer;
+    width: 20rem;
+}
+
+.site_title .title {
+    font-size: 1.5rem;
+}
+
+.sub {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.userform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+#username {
+    width: 20rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #696969;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+#username_submit {
+    width: 7rem;
+    height: 2.5rem;
+    background-color: rgb(50, 150, 0);
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.detail {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+.answer {
+    margin: 0;
+    background-color: #ff0000;
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+
+.answer:hover {
+    height: 2.2rem;
+    transition: 0.5s ease;
+}
+
+.green_b {
+    background-color: rgb(50, 150, 50);
+}
+
+.red_b {
+    background-color: rgb(200, 50, 50);
+}
+
+.next {
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    background: none;
+    text-decoration: underline;
+}
+
+.next:hover {
+    color: rgb(43, 163, 233);
+    transition: color 0.5s ease;
+}
+
+table,
+td {
+    border: 1px solid #333;
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
